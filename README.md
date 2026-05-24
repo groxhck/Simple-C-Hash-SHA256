@@ -1,2 +1,7 @@
 # Simple-C-Hash-SHA256
-Simple code for hashin text with C and OpenSSL-SHA
+
+Codigo simples para gerar uma Hash Sha256 usando a lib do Openssl
+
+para compilar o arquivo
+
+- gcc main.c -o main -lcrypto
