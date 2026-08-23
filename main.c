@@ -2,8 +2,15 @@
 #include <openssl/sha.h>
 #include <string.h>
 
-int main() {
-    
+
+void compare_hash(){
+
+
+
+}
+
+void encripty_message(){
+
     char texto[128];
 
     printf("Insira sua mensagem: ");
@@ -17,5 +24,14 @@ int main() {
     }
     printf("\n");
     return 0;
+
+}
+
+int main(int argc, char *argv[]) {
+    
+    // Entrada dos Argumentos
+    if(strcmp(argv[1], "c")==0){
+        encripty_message();
+    }
 
 }
